@@ -1,0 +1,53 @@
+body {
+  color: #4D3FA6;
+  font-family: "Roboto", sans-serif;
+  padding-top: 40px;
+}
+
+.nanny__list {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nanny__list li {
+  width: 311px;
+  margin-top: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nanny__list li a {
+  text-decoration: none;
+  color: #4D3FA6;
+}
+.nanny__list li a .row:nth-child(2) {
+  margin-top: 50px;
+}
+.nanny__name p:first-child {
+  font-size: 24px;
+  line-height: 28px;
+}
+.nanny__name p:last-child {
+  font-size: 14px;
+  line-height: 16px;
+}
+.nanny__option p {
+  margin-bottom: 12px;
+}
+.nanny__option p:first-child {
+  font-size: 14px;
+  line-height: 16px;
+}
+.nanny__option p:last-child {
+  font-size: 12px;
+  line-height: 14px;
+}
+.nanny__price {
+  padding-top: 10px;
+  font-size: 14px;
+  border-top: 1px solid #4D3FA6;
+}
+
+/*# sourceMappingURL=main.css.map */
