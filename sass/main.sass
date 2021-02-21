@@ -5,16 +5,30 @@ body
     font-family: 'Roboto', sans-serif
     padding-top: 40px
 
+
+
+.wrapper_nanny
+    @media screen and ( max-width: 470px )
+        width: 320px
+
 .nanny
+    margin: 0 auto
+    @media screen and ( max-width: 470px )
+        width: 310px
+    .row
+        margin: 0 auto
+
     &__list
         padding: 0
-        margin-bottom: 20px
+        margin: 0 auto 20px
         list-style: none
         display: flex
-        flex-direction: column
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: center
         li
-            width: 311px
-            margin-top: 20px
+            width: 300px
+            margin: 20px
             padding: 20px
             //border: 1px solid $dark
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
@@ -22,7 +36,7 @@ body
                 text-decoration: none
                 color: $dark
                 .row:nth-child(2)
-                    margin-top: 50px
+                        margin-top: 50px
     &__name
         p
             &:first-child
