@@ -77,4 +77,171 @@ body {
   border-top: 1px solid #4D3FA6;
 }
 
+.nanny-person {
+  margin: 0 auto;
+}
+@media screen and (max-width: 470px) {
+  .nanny-person {
+    width: 310px;
+  }
+}
+.nanny-person .row {
+  margin: 0 auto;
+}
+.nanny-person__photo {
+  margin: 0 auto 30px auto;
+  display: block;
+}
+.nanny-person__name {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.nanny-person__name p:first-child {
+  font-size: 24px;
+  line-height: 28px;
+}
+.nanny-person__name p:last-child {
+  font-size: 14px;
+  line-height: 16px;
+}
+.nanny-person .option-wrapper {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nanny-person__option {
+  width: 48%;
+  margin: 0 auto;
+}
+.nanny-person__option p {
+  text-align: center;
+  margin: 0 0 12px 0;
+}
+.nanny-person__option p:first-child {
+  font-size: 14px;
+  line-height: 16px;
+}
+.nanny-person__option p:last-child {
+  font-size: 12px;
+  line-height: 14px;
+}
+.nanny-person__price {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  border-top: 1px solid #4D3FA6;
+  text-align: center;
+}
+.nanny-person .button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #4D3FA6;
+  padding-bottom: 30px;
+}
+.nanny-person .button-wrapper a {
+  width: 240px;
+  font-size: 16px;
+  padding: 15px 30px;
+  background-color: #4D3FA6;
+  color: #fff;
+  margin: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+.nanny-person .button-wrapper a:hover {
+  background-color: #6658c0;
+}
+.nanny-person .about-nanny {
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid #4D3FA6;
+}
+.nanny-person .about-nanny__text {
+  margin: 15px 0;
+}
+.nanny-person .about-nanny__text:last-child {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 470px) {
+  .wrapper_reviews {
+    width: 320px;
+  }
+}
+
+.reviews {
+  margin: 0 auto;
+}
+@media screen and (max-width: 470px) {
+  .reviews {
+    width: 310px;
+  }
+}
+.reviews .row {
+  margin: 0 auto;
+}
+.reviews__list {
+  padding: 0;
+  margin: 0 auto 20px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.reviews__list li {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.reviews__list li a {
+  text-decoration: none;
+  color: #4D3FA6;
+}
+.reviews__list li a .row:nth-child(2) {
+  margin-top: 50px;
+}
+.reviews__name p:first-child {
+  font-size: 24px;
+  line-height: 28px;
+}
+.reviews__name p:last-child {
+  font-size: 14px;
+  line-height: 16px;
+}
+.reviews__text .r-text {
+  display: block;
+  margin: 30px 0;
+}
+.reviews__text .r-text:first-child {
+  font-size: 14px;
+  line-height: 16px;
+}
+.reviews__text .r-text:last-child {
+  font-size: 12px;
+  line-height: 14px;
+}
+
 /*# sourceMappingURL=main.css.map */
